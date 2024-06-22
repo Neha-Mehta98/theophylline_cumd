@@ -24,8 +24,8 @@ NSHELL LABEL=n_the_r GROUP=all NSV=1 SOLUTE=383 NST=1 DCR=0.0742 CRSIZE=0.1298 D
 NSHELL LABEL=dthe GROUP=all NSV=1 NST=1 SOLUTE=383 DCR=0.0742 CRSIZE=0.1298 DF=0.2133 WF=0.0185 WOUT=0.0035 WIN=0.0035 NINT=5.0 NZ=188 DELTA
 
 # # # RESTRAINING THE SOLUTE/SOLVENT CR DENSITY:
-RESTRAINT ARG=n_the_l AT=0.3 KAPPA=50000.0 LABEL=thesl      #urea density restrain
-RESTRAINT ARG=n_the_r AT=0.3 KAPPA=50000.0 LABEL=thesr      #urea density restrain
+RESTRAINT ARG=n_the_l AT=0.1 KAPPA=50000.0 LABEL=thesl      #urea density restrain
+RESTRAINT ARG=n_the_r AT=0.1 KAPPA=50000.0 LABEL=thesr      #urea density restrain
 
 # Print value of the CV and bias to a file named COLVAR
 PRINT STRIDE=500 ARG=* FILE=COLVAR1   
